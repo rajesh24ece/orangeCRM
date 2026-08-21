@@ -1,0 +1,508 @@
+2026-08-06 11:58:17 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-08 18:47:28 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:24:01 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:24:01 [ERROR] : Failed to navigate to : locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Username')[22m
+
+2026-08-12 07:24:40 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:25:12 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:25:12 [ERROR] : Failed to navigate to : locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Username')[22m
+
+2026-08-12 07:26:46 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:30:40 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:47:51 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:47:51 [ERROR] : Failed to navigate to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']')
+Expected: [32m"Required"[39m
+Error: strict mode violation: locator('[class*=\'input-field-error-message\']') resolved to 2 elements:
+    1) <span data-v-7b563373="" data-v-957b4417="" class="oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message">Required</span> aka getByText('Required').first()
+    2) <span data-v-7b563373="" data-v-957b4417="" class="oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message">Required</span> aka getByText('Required').nth(1)
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']')[22m
+
+2026-08-12 07:48:52 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:54:30 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:54:32 [INFO] : Sent username: 
+2026-08-12 07:54:32 [INFO] : Sent password: 
+2026-08-12 07:54:32 [INFO] : Clicked on: Login
+2026-08-12 07:56:11 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:56:11 [ERROR] : Failed to navigate to null: locator.fill: value: expected string, got object
+2026-08-12 07:57:51 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:57:51 [INFO] : Sent username: 
+2026-08-12 07:57:52 [INFO] : Sent password: 
+2026-08-12 07:57:52 [INFO] : Clicked on: Login
+2026-08-12 07:58:52 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:58:53 [INFO] : Sent username: 
+2026-08-12 07:58:53 [INFO] : Sent password: 
+2026-08-12 07:58:53 [INFO] : Clicked on: Login
+2026-08-12 07:59:50 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 07:59:50 [INFO] : Sent username: 
+2026-08-12 07:59:50 [INFO] : Sent password: 
+2026-08-12 07:59:50 [INFO] : Clicked on: Login button
+2026-08-12 13:26:45 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:26:45 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:26:45 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:26:45 [INFO] : Entered username: Admin
+2026-08-12 13:26:46 [INFO] : Entered username: 
+2026-08-12 13:26:46 [INFO] : Entered password: 
+2026-08-12 13:26:46 [INFO] : Entered password: admin123
+2026-08-12 13:26:46 [INFO] : Entered username: Admin
+2026-08-12 13:26:46 [INFO] : Entered password: test123$
+2026-08-12 13:26:46 [INFO] : Clicked: Login button
+2026-08-12 13:26:46 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:26:47 [INFO] : Entered username: rajesh
+2026-08-12 13:26:47 [INFO] : Entered password: admin123
+2026-08-12 13:26:47 [INFO] : Clicked: Login button
+2026-08-12 13:26:47 [INFO] : Clicked: Login button
+2026-08-12 13:26:48 [INFO] : Clicked: Login button
+2026-08-12 13:26:52 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+
+2026-08-12 13:26:52 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+
+2026-08-12 13:26:53 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+
+2026-08-12 13:42:58 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:42:59 [INFO] : Entered username: 
+2026-08-12 13:42:59 [INFO] : Entered password: 
+2026-08-12 13:42:59 [INFO] : Clicked: Login button
+2026-08-12 13:44:04 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:44:05 [INFO] : Entered username: Admin
+2026-08-12 13:44:05 [INFO] : Entered password: test123$
+2026-08-12 13:44:05 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:44:05 [INFO] : Clicked: Login button
+2026-08-12 13:44:06 [INFO] : Entered username: 
+2026-08-12 13:44:06 [INFO] : Entered password: 
+2026-08-12 13:44:06 [INFO] : Clicked: Login button
+2026-08-12 13:44:10 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"[22m
+
+2026-08-12 13:50:10 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:50:11 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:50:11 [INFO] : Entered username: 
+2026-08-12 13:50:11 [INFO] : Entered password: 
+2026-08-12 13:50:11 [INFO] : Entered username: Admin
+2026-08-12 13:50:11 [INFO] : Entered password: test123$
+2026-08-12 13:50:11 [INFO] : Clicked: Login button
+2026-08-12 13:50:14 [INFO] : Clicked: Login button
+2026-08-12 13:55:00 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:55:01 [INFO] : Entered username: 
+2026-08-12 13:55:01 [INFO] : Entered password: 
+2026-08-12 13:55:01 [INFO] : Clicked: Login button
+2026-08-12 13:55:05 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:55:06 [INFO] : Entered username: Admin
+2026-08-12 13:55:06 [INFO] : Entered password: test123$
+2026-08-12 13:55:06 [INFO] : Clicked: Login button
+2026-08-12 13:58:19 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:58:22 [INFO] : Entered username: 
+2026-08-12 13:58:22 [INFO] : Entered password: 
+2026-08-12 13:58:22 [INFO] : Clicked: Login button
+2026-08-12 13:58:27 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:58:29 [INFO] : Entered username: Admin
+2026-08-12 13:58:29 [INFO] : Entered password: test123$
+2026-08-12 13:58:29 [INFO] : Clicked: Login button
+2026-08-12 13:58:34 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"[22m
+
+2026-08-12 13:58:40 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 13:58:41 [INFO] : Entered username: rajesh
+2026-08-12 13:58:41 [INFO] : Entered password: admin123
+2026-08-12 13:58:43 [INFO] : Clicked: Login button
+2026-08-12 13:58:48 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 13:59:28 [ERROR] : Failed to https://opensource-demo.orangehrmlive.com/: page.goto: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://opensource-demo.orangehrmlive.com/", waiting until "domcontentloaded"[22m
+
+2026-08-12 14:00:51 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:00:52 [INFO] : Entered username: 
+2026-08-12 14:00:52 [INFO] : Entered password: 
+2026-08-12 14:00:52 [INFO] : Clicked: Login button
+2026-08-12 14:01:13 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:01:20 [INFO] : Entered username: Admin
+2026-08-12 14:01:20 [INFO] : Entered password: test123$
+2026-08-12 14:01:26 [INFO] : Clicked: Login button
+2026-08-12 14:01:31 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:02:33 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:02:33 [INFO] : Entered username: Admin
+2026-08-12 14:02:33 [INFO] : Entered password: test123$
+2026-08-12 14:02:33 [INFO] : Clicked: Login button
+2026-08-12 14:02:38 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"[22m
+
+2026-08-12 14:04:01 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:04:07 [INFO] : Entered username: Admin
+2026-08-12 14:04:08 [INFO] : Entered password: test123$
+2026-08-12 14:04:14 [INFO] : Clicked: Login button
+2026-08-12 14:04:26 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:04:52 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:04:59 [INFO] : Entered username: Admin
+2026-08-12 14:05:01 [INFO] : Entered password: test123$
+2026-08-12 14:05:13 [INFO] : Clicked: Login button
+2026-08-12 14:05:18 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:07:29 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:07:30 [INFO] : Entered username: Admin
+2026-08-12 14:07:30 [INFO] : Entered password: test123$
+2026-08-12 14:07:34 [INFO] : Clicked: Login button
+2026-08-12 14:08:00 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:08:00 [INFO] : Entered username: 
+2026-08-12 14:08:00 [INFO] : Entered password: 
+2026-08-12 14:08:01 [INFO] : Clicked: Login button
+2026-08-12 14:08:07 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:08:08 [INFO] : Entered username: Admin
+2026-08-12 14:08:08 [INFO] : Entered password: test123$
+2026-08-12 14:08:08 [INFO] : Clicked: Login button
+2026-08-12 14:08:16 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:08:17 [INFO] : Entered username: rajesh
+2026-08-12 14:08:17 [INFO] : Entered password: admin123
+2026-08-12 14:08:17 [INFO] : Clicked: Login button
+2026-08-12 14:08:21 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:08:22 [INFO] : Entered username: Admin
+2026-08-12 14:08:22 [INFO] : Entered password: admin123
+2026-08-12 14:08:22 [INFO] : Clicked: Login button
+2026-08-12 14:08:27 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"[22m
+
+2026-08-12 14:12:11 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:12:12 [INFO] : Entered username: 
+2026-08-12 14:12:12 [INFO] : Entered password: 
+2026-08-12 14:12:13 [INFO] : Clicked: Login button
+2026-08-12 14:12:16 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:12:18 [INFO] : Entered username: Admin
+2026-08-12 14:12:18 [INFO] : Entered password: test123$
+2026-08-12 14:12:22 [INFO] : Clicked: Login button
+2026-08-12 14:12:27 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:12:28 [INFO] : Entered username: rajesh
+2026-08-12 14:12:28 [INFO] : Entered password: admin123
+2026-08-12 14:12:28 [INFO] : Clicked: Login button
+2026-08-12 14:12:34 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:12:36 [INFO] : Entered username: Admin
+2026-08-12 14:12:36 [INFO] : Entered password: admin123
+2026-08-12 14:12:36 [INFO] : Clicked: Login button
+2026-08-12 14:12:41 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"[22m
+
+2026-08-12 14:16:13 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:16:14 [INFO] : Entered username: 
+2026-08-12 14:16:14 [INFO] : Entered password: 
+2026-08-12 14:16:14 [INFO] : Clicked: Login button
+2026-08-12 14:16:24 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:16:26 [INFO] : Entered username: Admin
+2026-08-12 14:16:26 [INFO] : Entered password: test123$
+2026-08-12 14:16:26 [INFO] : Clicked: Login button
+2026-08-12 14:16:32 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:16:33 [INFO] : Entered username: rajesh
+2026-08-12 14:16:33 [INFO] : Entered password: admin123
+2026-08-12 14:16:36 [INFO] : Clicked: Login button
+2026-08-12 14:16:41 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:16:42 [INFO] : Entered username: Admin
+2026-08-12 14:16:42 [INFO] : Entered password: admin123
+2026-08-12 14:16:42 [INFO] : Clicked: Login button
+2026-08-12 14:16:47 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Received: [31m""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:29:59 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:30:01 [INFO] : Entered username: 
+2026-08-12 14:30:01 [INFO] : Entered password: 
+2026-08-12 14:30:01 [INFO] : Clicked: Login button
+2026-08-12 14:30:08 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:30:12 [INFO] : Entered username: Admin
+2026-08-12 14:30:12 [INFO] : Entered password: test123$
+2026-08-12 14:30:12 [INFO] : Clicked: Login button
+2026-08-12 14:30:20 [ERROR] : Failed to Invalid credentials: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('[class*=\'oxd-alert-content-text\']')
+Expected: [32m"Invalid credentials"[39m
+Received: [31m""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'oxd-alert-content-text\']')[22m
+
+2026-08-12 14:30:27 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:30:29 [INFO] : Entered username: rajesh
+2026-08-12 14:30:29 [INFO] : Entered password: admin123
+2026-08-12 14:30:29 [INFO] : Clicked: Login button
+2026-08-12 14:30:37 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:30:40 [INFO] : Entered username: Admin
+2026-08-12 14:30:40 [INFO] : Entered password: admin123
+2026-08-12 14:30:40 [INFO] : Clicked: Login button
+2026-08-12 14:30:46 [ERROR] : Failed to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"[39m
+Received: [31m""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+
+2026-08-12 14:34:09 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:34:10 [INFO] : Entered username: 
+2026-08-12 14:34:10 [INFO] : Entered password: 
+2026-08-12 14:34:10 [INFO] : Clicked: Login button
+2026-08-12 14:34:14 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:34:14 [INFO] : Entered username: Admin
+2026-08-12 14:34:14 [INFO] : Entered password: test123$
+2026-08-12 14:34:14 [INFO] : Clicked: Login button
+2026-08-12 14:34:19 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:34:19 [INFO] : Entered username: rajesh
+2026-08-12 14:34:19 [INFO] : Entered password: admin123
+2026-08-12 14:34:20 [INFO] : Clicked: Login button
+2026-08-12 14:34:24 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:34:24 [INFO] : Entered username: Admin
+2026-08-12 14:34:24 [INFO] : Entered password: admin123
+2026-08-12 14:34:25 [INFO] : Clicked: Login button
+2026-08-12 14:35:20 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:35:20 [INFO] : Entered username: 
+2026-08-12 14:35:20 [INFO] : Entered password: 
+2026-08-12 14:35:21 [INFO] : Clicked: Login button
+2026-08-12 14:35:24 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:35:25 [INFO] : Entered username: Admin
+2026-08-12 14:35:25 [INFO] : Entered password: test123$
+2026-08-12 14:35:26 [INFO] : Clicked: Login button
+2026-08-12 14:35:29 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:35:30 [INFO] : Entered username: rajesh
+2026-08-12 14:35:30 [INFO] : Entered password: admin123
+2026-08-12 14:35:30 [INFO] : Clicked: Login button
+2026-08-12 14:35:36 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 14:35:36 [INFO] : Entered username: Admin
+2026-08-12 14:35:37 [INFO] : Entered password: admin123
+2026-08-12 14:35:37 [INFO] : Clicked: Login button
+2026-08-12 16:21:22 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 16:21:23 [INFO] : Entered username: 
+2026-08-12 16:21:23 [INFO] : Entered password: 
+2026-08-12 16:21:23 [INFO] : Clicked: Login button
+2026-08-12 16:21:26 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 16:21:27 [INFO] : Entered username: Admin
+2026-08-12 16:21:27 [INFO] : Entered password: test123$
+2026-08-12 16:21:27 [INFO] : Clicked: Login button
+2026-08-12 16:21:32 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 16:21:33 [INFO] : Entered username: rajesh
+2026-08-12 16:21:33 [INFO] : Entered password: admin123
+2026-08-12 16:21:33 [INFO] : Clicked: Login button
+2026-08-12 16:21:38 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-12 16:21:38 [INFO] : Entered username: Admin
+2026-08-12 16:21:38 [INFO] : Entered password: admin123
+2026-08-12 16:21:38 [INFO] : Clicked: Login button
+2026-08-21 06:26:12 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 06:26:12 [INFO] : Entered username: 
+2026-08-21 06:26:12 [INFO] : Entered password: 
+2026-08-21 06:26:12 [INFO] : Clicked: Login button
+2026-08-21 06:26:16 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 06:26:16 [INFO] : Entered username: Admin
+2026-08-21 06:26:16 [INFO] : Entered password: test123$
+2026-08-21 06:26:17 [INFO] : Clicked: Login button
+2026-08-21 06:26:21 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 06:26:21 [INFO] : Entered username: rajesh
+2026-08-21 06:26:21 [INFO] : Entered password: admin123
+2026-08-21 06:26:22 [INFO] : Clicked: Login button
+2026-08-21 06:26:26 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 06:26:26 [INFO] : Entered username: Admin
+2026-08-21 06:26:26 [INFO] : Entered password: admin123
+2026-08-21 06:26:26 [INFO] : Clicked: Login button
+2026-08-21 07:57:58 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 07:57:58 [INFO] : Entered username: 
+2026-08-21 07:57:59 [INFO] : Entered password: 
+2026-08-21 07:57:59 [INFO] : Clicked: Login button
+2026-08-21 07:58:02 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 07:58:02 [INFO] : Entered username: Admin
+2026-08-21 07:58:03 [INFO] : Entered password: test123$
+2026-08-21 07:58:03 [INFO] : Clicked: Login button
+2026-08-21 07:58:07 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 07:58:07 [INFO] : Entered username: rajesh
+2026-08-21 07:58:07 [INFO] : Entered password: admin123
+2026-08-21 07:58:07 [INFO] : Clicked: Login button
+2026-08-21 07:58:11 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 07:58:12 [INFO] : Entered username: Admin
+2026-08-21 07:58:12 [INFO] : Entered password: admin123
+2026-08-21 07:58:12 [INFO] : Clicked: Login button
+2026-08-21 09:15:33 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 09:15:33 [INFO] : Entered username: 
+2026-08-21 09:15:33 [INFO] : Entered password: 
+2026-08-21 09:15:34 [INFO] : Clicked: Login button
+2026-08-21 09:15:38 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 09:15:38 [INFO] : Entered username: 
+2026-08-21 09:15:38 [INFO] : Entered password: admin123
+2026-08-21 09:15:38 [INFO] : Clicked: Login button
+2026-08-21 09:15:42 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 09:15:43 [INFO] : Entered username: Admin
+2026-08-21 09:15:43 [INFO] : Entered password: 
+2026-08-21 09:15:43 [INFO] : Clicked: Login button
+2026-08-21 09:15:46 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 09:15:47 [INFO] : Entered username: Admin
+2026-08-21 09:15:47 [INFO] : Entered password: test123$
+2026-08-21 09:15:48 [INFO] : Clicked: Login button
+2026-08-21 09:15:53 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 09:15:53 [INFO] : Entered username: rajesh
+2026-08-21 09:15:54 [INFO] : Entered password: admin123
+2026-08-21 09:15:55 [INFO] : Clicked: Login button
+2026-08-21 09:15:59 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 09:15:59 [INFO] : Entered username: Admin
+2026-08-21 09:15:59 [INFO] : Entered password: admin123
+2026-08-21 09:16:01 [INFO] : Clicked: Login button
+2026-08-21 10:19:10 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:11 [INFO] : Entered username: 
+2026-08-21 10:19:11 [INFO] : Entered password: 
+2026-08-21 10:19:11 [INFO] : Clicked: Login button
+2026-08-21 10:19:16 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:17 [INFO] : Entered username: 
+2026-08-21 10:19:17 [INFO] : Entered password: admin123
+2026-08-21 10:19:17 [INFO] : Clicked: Login button
+2026-08-21 10:19:23 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:24 [INFO] : Entered username: 
+2026-08-21 10:19:24 [INFO] : Entered password: test123$
+2026-08-21 10:19:24 [INFO] : Clicked: Login button
+2026-08-21 10:19:28 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:28 [INFO] : Entered username: Admin
+2026-08-21 10:19:28 [INFO] : Entered password: 
+2026-08-21 10:19:28 [INFO] : Clicked: Login button
+2026-08-21 10:19:32 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:32 [INFO] : Entered username: Admin
+2026-08-21 10:19:32 [INFO] : Entered password: test123$
+2026-08-21 10:19:32 [INFO] : Clicked: Login button
+2026-08-21 10:19:37 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:38 [INFO] : Entered username: rajesh
+2026-08-21 10:19:38 [INFO] : Entered password: admin123
+2026-08-21 10:19:38 [INFO] : Clicked: Login button
+2026-08-21 10:19:43 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:44 [INFO] : Entered username: rajesh
+2026-08-21 10:19:44 [INFO] : Entered password: 
+2026-08-21 10:19:44 [INFO] : Clicked: Login button
+2026-08-21 10:19:47 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:48 [INFO] : Entered username: rajesh
+2026-08-21 10:19:48 [INFO] : Entered password: test123$
+2026-08-21 10:19:48 [INFO] : Clicked: Login button
+2026-08-21 10:19:52 [INFO] : Navigated to: https://opensource-demo.orangehrmlive.com/
+2026-08-21 10:19:53 [INFO] : Entered username: Admin
+2026-08-21 10:19:53 [INFO] : Entered password: admin123
+2026-08-21 10:19:53 [INFO] : Clicked: Login button

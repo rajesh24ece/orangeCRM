@@ -1,0 +1,198 @@
+2026-08-12 07:24:01 [ERROR] : Failed to navigate to : locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Username')[22m
+
+2026-08-12 07:25:12 [ERROR] : Failed to navigate to : locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Username')[22m
+
+2026-08-12 07:47:51 [ERROR] : Failed to navigate to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']')
+Expected: [32m"Required"[39m
+Error: strict mode violation: locator('[class*=\'input-field-error-message\']') resolved to 2 elements:
+    1) <span data-v-7b563373="" data-v-957b4417="" class="oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message">Required</span> aka getByText('Required').first()
+    2) <span data-v-7b563373="" data-v-957b4417="" class="oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message">Required</span> aka getByText('Required').nth(1)
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']')[22m
+
+2026-08-12 07:56:11 [ERROR] : Failed to navigate to null: locator.fill: value: expected string, got object
+2026-08-12 13:26:52 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+
+2026-08-12 13:26:52 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+
+2026-08-12 13:26:53 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+
+2026-08-12 13:44:10 [ERROR] : Failed to Required: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'input-field-error-message\']').first()
+Expected: [32m"Required"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'input-field-error-message\']').first()[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"[22m
+
+2026-08-12 13:58:34 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"[22m
+
+2026-08-12 13:58:48 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 13:59:28 [ERROR] : Failed to https://opensource-demo.orangehrmlive.com/: page.goto: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://opensource-demo.orangehrmlive.com/", waiting until "domcontentloaded"[22m
+
+2026-08-12 14:01:31 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:02:38 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"[22m
+
+2026-08-12 14:04:26 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:05:18 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:08:27 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"[22m
+
+2026-08-12 14:12:41 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+[2m    - waiting for "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" navigation to finish...[22m
+[2m    - navigated to "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"[22m
+
+2026-08-12 14:16:47 [ERROR] : Failed to Dashboard: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('[class*=\'header-breadcrumb-module\']')
+Expected: [32m"Dashboard"[39m
+Received: [31m""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'header-breadcrumb-module\']')[22m
+
+2026-08-12 14:30:20 [ERROR] : Failed to Invalid credentials: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('[class*=\'oxd-alert-content-text\']')
+Expected: [32m"Invalid credentials"[39m
+Received: [31m""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('[class*=\'oxd-alert-content-text\']')[22m
+
+2026-08-12 14:30:46 [ERROR] : Failed to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"[39m
+Received: [31m""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+

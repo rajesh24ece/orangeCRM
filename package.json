@@ -1,0 +1,27 @@
+{
+  "name": "orangecrm",
+  "version": "1.0.0",
+  "description": "A scalable and maintainable **End-to-End Test Automation Framework** built using **Playwright** and **TypeScript** following the **Page Object Model (POM)** design pattern.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajesh24ece/orangeCRM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rajesh24ece/orangeCRM/issues"
+  },
+  "homepage": "https://github.com/rajesh24ece/orangeCRM#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "winston": "^3.19.0"
+  }
+}

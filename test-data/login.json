@@ -1,0 +1,18 @@
+{
+    "invalidPassword": {
+        "username": "Admin",
+        "password": "test123$"
+    },
+    "invalidUserName": {
+        "username": "rajesh",
+        "password": "admin123"
+    },
+   "nullUserNamePassword": {
+        "username": "",
+        "password": ""
+    },
+  "validUser": {
+        "username": "Admin",
+        "password": "admin123"
+    }
+}
